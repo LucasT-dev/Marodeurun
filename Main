@@ -1,15 +1,1 @@
-package fr.Marodeur.Main;
 
-import org.bukkit.plugin.java.JavaPlugin;
-
-public class Main extends JavaPlugin {
-	
-	public void onEnable() {
-		getServer().getConsoleSender().sendMessage("Plugin ON");
-	
-	}
-	public void onDisable() {
-		getServer().getConsoleSender().sendMessage("Plugin OFF");
-		
-	}
-}
